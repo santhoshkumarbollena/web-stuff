@@ -1,0 +1,24 @@
+## v-bind:
+  - to bind data from vue js to a html attribute
+  
+ - <a v-bind:href="website">dmeo</a>
+ 
+ new Vue({
+ data:{
+ website:"http://abc.co.uk"
+ }
+ 
+ });
+ 
+ v-html:
+  to render html tag from vue js.
+  
+  <p v-html="demo"></p>
+  
+  new Vue({
+  data:{
+  demo:"<a href="http://abc.co.uk">link</a>"
+  }
+  });
+ 
+ 
