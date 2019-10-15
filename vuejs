@@ -21,4 +21,4 @@
   }
   });
  
- 
+ <button v-on:click="add">button</button>
